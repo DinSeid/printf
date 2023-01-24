@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * get_precision - Calculates the precision for printing
  * @format: Formatted string in which to print the arguments
@@ -30,10 +31,13 @@ int get_precision(const char *format, int *i, va_list list)
 			break;
 		}
 		else
+
 			break;
+
 	}
 
 	*i = curr_i - 1;
 
 	return (precision);
+
 }
